@@ -13,6 +13,27 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://static.hotmart.com/checkout/fancybox/jquery.fancybox.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/cover.css">
+	<style type="text/css">
+		#utb {
+			max-width:560px;
+			width:560px;
+			max-height:315px; 
+			height:315px;
+		}
+		@media (max-width:560px) {
+			#utb {
+				max-width:250px;
+				width:250px;
+				max-height:140px; 
+				height:140px;
+			}
+		}
+		@media (max-width:700px) {
+			body,html {
+				background-size:auto;
+			}
+		}
+	</style>
 </head>
 	<body>
 		<div class="site-wrapper">
@@ -38,7 +59,7 @@
 						<div id="abcarrousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/CLTC1v4TKN4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<iframe id="utb" src="https://www.youtube.com/embed/CLTC1v4TKN4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 									<h1 class="cover-heading">Você está preparado para o desafio?</h1>
 									<p class="lead">Este e-book traz uma visão básica, clara e objetiva das principais ferramentas necessárias para iniciar sua carreira com Excel.</p>
 									<p class="lead">
